@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../assets/eric-muhr-8zskmq_yL6Q-unsplash.jpg); // a imagem será processada
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: lch(53 105 40); // cor será convertida
+
+  font-size: 16px;
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: rebeccapurple; // cor será convertida
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
